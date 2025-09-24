@@ -1,10 +1,10 @@
 {
   "name": "wot-design-uni",
-  "version": "1.12.4",
+  "version": "1.12.5",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Moonofweisheng/wot-design-uni.git"
+    "url": "https://github.com/wanatabe/wot-design-uni.git"
   },
   "scripts": {
     "dev:app": "uni -p app",
