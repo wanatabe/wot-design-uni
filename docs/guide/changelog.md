@@ -1,6 +1,41 @@
 # 更新日志 
 
 
+### [1.12.5](https://github.com/wanatabe/wot-design-uni/compare/v1.12.4...v1.12.5) (2025-09-24)
+
+
+### ✏️ Documentation | 文档
+
+*  修复黑暗模式下demo页面样式异常 ([397c883](https://github.com/wanatabe/wot-design-uni/commit/397c88338a65afa71f452a67cec938afd5e25e9a))
+* ✏️  补充 Button 组件的 getRealtimePhoneNumber 仅支持微信小程序 ([7466c91](https://github.com/wanatabe/wot-design-uni/commit/7466c91c1a50318c6f80cbcbeb368dad2bff7dd9))
+* ✏️  调整 Gap 文档描述错误的问题 ([1a9f626](https://github.com/wanatabe/wot-design-uni/commit/1a9f62698643b5d1e5fc24be52ad3416464ff651))
+* ✏️  调整文档站点域名为 wot-ui.cn ([4c8cdb8](https://github.com/wanatabe/wot-design-uni/commit/4c8cdb83d077370f6d81b9250c6651301521eb6b))
+* ✏️  更新快速上手项目链接 ([d86dd18](https://github.com/wanatabe/wot-design-uni/commit/d86dd18b49bbaf2a06a6f85338b2e9fe6b9950b6))
+* ✏️  添加博客链接地址 ([d7272eb](https://github.com/wanatabe/wot-design-uni/commit/d7272ebab6fbea321133ee52ce1c6748567bf486))
+* ✏️  添加赞助渠道 ([3564bce](https://github.com/wanatabe/wot-design-uni/commit/3564bce12f4341bd329731c9a18121c611c460c7))
+* ✏️  文档首页新增快速上手模板和公众号的入口 ([e80b0df](https://github.com/wanatabe/wot-design-uni/commit/e80b0df51e5049cecf4f0f70cc83535dc52f8e06))
+* ✏️  优化演示 Demo 在小屏幕上的显示效果 ([#1296](https://github.com/wanatabe/wot-design-uni/issues/1296)) ([0dbdde9](https://github.com/wanatabe/wot-design-uni/commit/0dbdde9e23645c4735e4051f5c259b0c473df896))
+* ✏️  优化演示demo显示效果 ([868b5ad](https://github.com/wanatabe/wot-design-uni/commit/868b5ad3108f45a096da967f92793ae05b645c2b)), closes [#1269](https://github.com/wanatabe/wot-design-uni/issues/1269)
+* ✏️  友情链接支持一行最多四个 ([4810db7](https://github.com/wanatabe/wot-design-uni/commit/4810db7d6fba25062382be3f862b5ba252052b70))
+* ✏️ 添加 img 组件 transformAssetUrls 配置介绍 ([#1259](https://github.com/wanatabe/wot-design-uni/issues/1259)) ([96cf9c7](https://github.com/wanatabe/wot-design-uni/commit/96cf9c7082b94904d45ef1a514f66bff60a57071))
+
+
+### ✨ Features | 新功能
+
+* ✨ 为 Curtain 组件添加 show-menu-by-longpress 和 close-on-click 属性 ([a905655](https://github.com/wanatabe/wot-design-uni/commit/a90565510ab55431f6d7537da465cc8299d07a46)), closes [#1279](https://github.com/wanatabe/wot-design-uni/issues/1279)
+* ✨ 优化 Swiper 使用默认插槽时插槽内容的显示效果 ([#1301](https://github.com/wanatabe/wot-design-uni/issues/1301)) ([41dd417](https://github.com/wanatabe/wot-design-uni/commit/41dd4177b66e6e03357ce79f5c9b92fa2a932a7a))
+* ✨ 增加车牌键盘语言切换功能，支持受控和非受控模式 ([#1294](https://github.com/wanatabe/wot-design-uni/issues/1294)) ([9943011](https://github.com/wanatabe/wot-design-uni/commit/9943011b4c629625091e82115d9241e6503efeae)), closes [#1275](https://github.com/wanatabe/wot-design-uni/issues/1275) [#818](https://github.com/wanatabe/wot-design-uni/issues/818)
+* ✨ button组件支持微信小程序的getrealtimephonenumber 事件 ([#1097](https://github.com/wanatabe/wot-design-uni/issues/1097)) ([ed412b6](https://github.com/wanatabe/wot-design-uni/commit/ed412b67261fce04c51d5c5b8836ca4dd0dc22a4))
+* ✨ Cell 新增 icon-siz 属性用于指定左侧图标大小 ([#1298](https://github.com/wanatabe/wot-design-uni/issues/1298)) ([9585db1](https://github.com/wanatabe/wot-design-uni/commit/9585db11503bc5e77e72e78ba7a51f1f6932f510)), closes [#1088](https://github.com/wanatabe/wot-design-uni/issues/1088)
+* ✨ Rate 支持清空评分([#1302](https://github.com/wanatabe/wot-design-uni/issues/1302)) ([1333bda](https://github.com/wanatabe/wot-design-uni/commit/1333bdac4f8f605c3c9851d0f43d267205ce5aef)), closes [#1293](https://github.com/wanatabe/wot-design-uni/issues/1293)
+* ✨ swiper新增default slot 用户可自定义swiper-item中的内容展示 ([#1164](https://github.com/wanatabe/wot-design-uni/issues/1164)) ([046b135](https://github.com/wanatabe/wot-design-uni/commit/046b135a14a938840c9309c6b9eedb1878866ac9))
+
+
+### 🐛 Bug Fixes | Bug 修复
+
+* 🐛 修复 table 组件表头文字溢出样式异常的问题 ([#1297](https://github.com/wanatabe/wot-design-uni/issues/1297)) ([5e186ea](https://github.com/wanatabe/wot-design-uni/commit/5e186ea4b2f8fea09cb1913c6a63f1e60827ec4e)), closes [#1182](https://github.com/wanatabe/wot-design-uni/issues/1182) [#1058](https://github.com/wanatabe/wot-design-uni/issues/1058)
+* 🐛 修复wd-drop-menu-item组件在popup数据较多在滚动区下拉时和页面onPullDownRefresh之间的冲突 ([#1113](https://github.com/wanatabe/wot-design-uni/issues/1113)) ([73027c0](https://github.com/wanatabe/wot-design-uni/commit/73027c0cefe980c27f46412c5648761c30a01bd0)), closes [#1107](https://github.com/wanatabe/wot-design-uni/issues/1107)
+
 ### [1.12.4](https://github.com/Moonofweisheng/wot-design-uni/compare/v1.12.3...v1.12.4) (2025-08-28)
 
 
@@ -1082,7 +1117,7 @@
 ### ✏️ Documentation | 文档
 
 * ✏️  调整组件库基于vite配置自动引入组件的介绍 ([2d23607](https://github.com/Moonofweisheng/wot-design-uni/commit/2d2360706fbe2a5d4024ceebd82720014c6b1ea2))
-* ✏️  文档推荐用户从wot-ui.cn迁移至wot-design-uni.gitee.io ([72a567c](https://github.com/Moonofweisheng/wot-design-uni/commit/72a567c44867f049c1526f5d682e46155047516a))
+* ✏️  文档推荐用户从wot-design-uni.cn迁移至wot-design-uni.gitee.io ([72a567c](https://github.com/Moonofweisheng/wot-design-uni/commit/72a567c44867f049c1526f5d682e46155047516a))
 * ✏️  增加steps设置激活项的介绍 ([7c0d36c](https://github.com/Moonofweisheng/wot-design-uni/commit/7c0d36c36214517d959aa27e284aacf59d2b074b))
 
 ### [1.2.3](https://github.com/Moonofweisheng/wot-design-uni/compare/v1.2.2...v1.2.3) (2024-03-20)
