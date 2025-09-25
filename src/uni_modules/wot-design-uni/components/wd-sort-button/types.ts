@@ -37,7 +37,12 @@ export const sortButtonProps = {
    * 类型: boolean
    * 默认值: true
    */
-  line: makeBooleanProp(true)
+  line: makeBooleanProp(true),
+
+  /**
+   * 激活图标颜色
+   */
+  activeColor: makeStringProp('#007AFF')
 }
 
 export type SortButtonProps = ExtractPropTypes<typeof sortButtonProps>

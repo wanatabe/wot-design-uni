@@ -7,7 +7,6 @@
       color: $-dark-color;
     }
   }
-
 }
 
 @include b(sort-button) {
@@ -27,7 +26,7 @@
         transform: translate(-50%, 0);
         background: $-sort-button-line-color;
         border-radius: calc($-sort-button-line-height / 2);
-        transition: opacity .15s;
+        transition: opacity 0.15s;
         opacity: 0;
       }
 
@@ -42,6 +41,8 @@
     color: $-sort-button-color;
     word-break: break-all;
     white-space: nowrap;
+    display: flex;
+    align-items: center;
   }
 
   @include e(left) {
@@ -50,12 +51,9 @@
     vertical-align: middle;
 
     @include when(active) {
-      font-weight: $-fw-medium;
-
       .wd-sort-button__right {
         justify-content: center;
       }
-
     }
   }
 
@@ -65,14 +63,6 @@
     margin-left: 2px;
     vertical-align: middle;
     line-height: 1.1;
-
-    @include when(active) {
-
-      :deep(.wd-sort-button__icon-up),
-      :deep(.wd-sort-button__icon-down) {
-        transform: scale(calc((10 / 14)));
-      }
-    }
   }
 
   @include edeep(icon-up) {
@@ -85,5 +75,8 @@
     display: block !important;
     line-height: 1.1;
     transform: scale(calc((10 / 14))) translate(0, -7px);
+  }
+  @include edeep(icon-opacity) {
+    opacity: 0;
   }
 }

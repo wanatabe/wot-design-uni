@@ -24,6 +24,7 @@
               allow-reset
               :line="false"
               :title="column.label"
+              :active-color="sortIconActiveColor"
               @change="({ value }) => handleSortChange(value, index)"
               v-if="column.sortable"
             />
@@ -78,6 +79,7 @@
                 allow-reset
                 :line="false"
                 :title="column.label"
+                :active-color="sortIconActiveColor"
                 @change="({ value }) => handleSortChange(value, index)"
               />
               <text v-else :class="`wd-table__value ${ellipsis ? 'is-ellipsis' : ''}`">{{ column.label }}</text>

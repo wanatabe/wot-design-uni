@@ -1,10 +1,10 @@
 {
-  "name": "wot-design-uni",
-  "version": "1.12.4",
+  "name": "@wwsg/wot-design-uni",
+  "version": "1.12.5",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Moonofweisheng/wot-design-uni.git"
+    "url": "https://github.com/wanatabe/wot-design-uni.git"
   },
   "scripts": {
     "dev:app": "uni -p app",
@@ -56,6 +56,7 @@
     "upload:mp-weixin": "uni build -p mp-weixin && minici --platform weixin",
     "upload:mp-alipay": "uni build -p mp-alipay && minici --platform alipay",
     "upload:mp-dingtalk": "uni build -p mp-dingtalk && minici --platform dd",
+    "publish:lib": "pnpm exec npm publish ./lib --registry https://packages.aliyun.com/5f53cafb5fd102f22f6bd123/npm/xnql/",
     "build:qrcode": "esno ./scripts/qrcode.ts",
     "build:changelog": "esno ./scripts/syncChangelog.ts",
     "build:theme-vars": "esno ./scripts/buildThemeVars.ts",

@@ -8,7 +8,7 @@
  * 记得注释
  */
 import type { CSSProperties, ExtractPropTypes, InjectionKey } from 'vue'
-import { baseProps, makeBooleanProp, makeNumericProp, makeRequiredProp, numericProp } from '../common/props'
+import { baseProps, makeBooleanProp, makeNumericProp, makeRequiredProp, makeStringProp, numericProp } from '../common/props'
 import type { TableColumnProps } from '../wd-table-col/types'
 import type { PropType } from 'vue'
 
@@ -49,7 +49,11 @@ export const tableProps = {
     type: [Object, Boolean] as PropType<boolean | Omit<Partial<TableColumnProps>, 'prop'>>,
     default: false
   },
-  fixedHeader: makeBooleanProp(true)
+  fixedHeader: makeBooleanProp(true),
+  /**
+   * 排序图标激活颜色
+   */
+  sortIconActiveColor: makeStringProp('#007AFF')
 }
 
 export type TableProps = ExtractPropTypes<typeof tableProps>
